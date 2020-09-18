@@ -1,0 +1,31 @@
+html{   height: 100%;}
+body{ margin: 0; height: 100%;
+   background:url(./content-pattern.jpg);
+    font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#363636;}
+    .wrapper {min-height: 80%;    height: auto !important;    height: 100%;    margin: 0 auto 0em; overflow:hidden; padding-bottom:5px}
+    
+    .main-header{ width:980px; margin:auto;  }
+    .logo{ float:left; margin-top:15px; width:240px; }
+    .logo-right{float:left; width:180px;}
+    .menu{ float:right; width:535px;}
+    .main-content{width:980px; margin:auto; padding:10px 10px 10px 10px;  }
+    .content-body{ line-height:20px; overflow:hidden;}
+    .leftblock{ float:left; width:259px;}
+    .rightblock{ float:right; width:694px;}
+    
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
