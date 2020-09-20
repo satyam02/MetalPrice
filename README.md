@@ -21,7 +21,7 @@ How to Run:
 ->index.js
 ->app.js
 ->app.css
-->content-patter.jpg(image for background)
+->content-pattern.jpg(image for background)
 
 7- Go to src folder under your React APP my_react_app and replace/add above files
 
