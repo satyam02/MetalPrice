@@ -1,0 +1,376 @@
+/**{ margin: 0;}*/
+
+html{   height: 100%;}
+body{ margin: 0; height: 100%; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#363636;}
+
+.wrapper {min-height: 80%;    height: auto !important;    height: 100%;    margin: 0 auto 0em; overflow:hidden; padding-bottom:5px}
+#header{ height:108px; }
+.main-header{ width:980px; margin:auto;  }
+.logo{ float:left; margin-top:15px; width:240px; }
+.logo-right{float:left; width:180px;}
+.menu{ float:right; width:535px;}
+.main-content{width:980px; margin:auto; padding:10px 10px 10px 10px;  }
+.content-body{ line-height:20px; overflow:hidden;}
+.leftblock{ float:left; width:259px;}
+.rightblock{ float:right; width:694px;}
+
+
+
+.liveprice .titlediv{  width:85px; float:left; padding: 6px 0 0 4px;}
+.liveprice .pricediv{ width:115px; float:right; padding: 9px 0 0 0; }
+/*.pricegreen{ color:#547708; font-size:14px; float:left; width:60px; text-align:right; padding-right:5px;} */
+.priceClass{font-size:14px; float:left; width:55px; text-align:right; padding-right:3px;}
+/* newly added for water mark */
+.liveprice{ width:259px; border:solid 1px #999; background:#f5f5f5 no-repeat center 45px;}
+.greyrow{ height:37px; border-top: 1px solid #c6c6c6;}
+.pinkrow{ height:37px; border-top: 1px solid #c6c6c6;}
+/* end of newly added for water mark */
+.purity{color:#888888; font-size:10px; width:30px; float:left; padding-top:5px;}
+.gram{color:#888888; font-size:10px; padding-bottom:5px;}
+sub{ font-size:10px; }
+sup{font-size:10px; }
+a{ color:#ce8c42}
+
+
+.liveprice1 .titlediv1{  width:190px; float:left; padding: 0px 10 0 30px; text-align:left;}
+.liveprice1 .pricediv1{ width:350px; float:right; padding: 5px 0 0 0; }
+.pricediv1 img{ float:left; padding-top:10px;}
+/*.pricegreen1{ color:#547708; font-size:36px; width:160px; float:left; text-align:right; } */
+.priceClass1{font-size:36px; width:160px; float:left; text-align:right;}
+
+/* newly added for water mark */
+.liveprice1{ width:958px; border:solid 1px #999; background:#f5f5f5 no-repeat center center;   }
+.greyrow1{ height:40px; border-top: 1px solid #c6c6c6; font-size:30px; padding:6px 0 16px 0px;}
+.pinkrow1{ height:40px; border-top: 1px solid #c6c6c6; font-size:30px; padding:6px 0 16px 0px;}
+
+/*.greyrow1{ background:url(../images/liveprice-bg.png); height:45px; border-top: 1px solid #c6c6c6; font-size:36px; padding:15px 0;}
+.pinkrow1{ height:45px; border-top: 1px solid #c6c6c6; font-size:36px; padding:15px 0;}*/
+
+/* end of newly added for water mark */
+
+.purity1{color:#a28521; font-size:14px; padding-top:6px; width:60px; float:left; text-align:left;}
+.gram1{color:#888888; font-size:16px; padding-top:8px;}
+.purity1 sub{ font-size:16px; }
+.purity1 sup{font-size:16px; }
+.icon{margin-left:30px;}
+
+
+
+.footer{ background:#09658a; }
+.main-footer{ width:980px; height:404px; margin:auto;   clear:both;}
+.branches{ width:298px; height:278px; float:left; margin-top:20px;}
+.products{width:298px; height:278px; float:left; margin-left:43px; margin-top:20px; }
+.getin{width:298px; height:278px; float:left; margin-left:42px; margin-top:20px;}
+.productsdiv{ padding:10px; overflow:hidden;}
+.productsdiv p{ padding:15px 5px 0 7px; color:#227cb1; overflow:hidden;}
+.productsdiv p .silver{ padding-left:10px;}
+.getindiv{padding:15px 20px 5px 20px; }
+.address{padding:0 20px 0 20px; font-size:12px; }
+.address span{ color:#07435d; font-size:13px;}
+#bottomblocks{ overflow:hidden;}
+.timings{ background:#ad6412; padding:10px; color:#fff; margin:10px 0; text-align:center;}
+.timings span{ color:#fdff37; padding:0 3px 0 10px;}
+.copymenu{ color:#ad6412; border-top:solid 1px #bababa; padding:10px 0 0 0;}
+.copymenu a{color:#ad6412; text-decoration:none;}
+.copyright{ float:left;}
+.bottommenu{ float:right;}
+.bottommenu span{color:#8d4b01;}
+.left{ float:left;}
+.right{ float:right;}
+p{ padding-bottom:10px;}
+
+.question{ font-weight:bold; color:#ce8c42;}
+.answer{ width:694px;}
+.que{ float:left; width:28px; overflow:hidden;}
+.que1{ float:left; width:666px; overflow:hidden; padding:0 0 5px 0;}
+.ans{ float:left; width:28px; overflow:hidden; padding:2px 0 15px 0;  font-weight:bold; font-size:11px;}
+.ans1{ float:left; width:666px; overflow:hidden; padding:2px 0 15px 0;}
+form ol{ padding:0; margin:0;}
+form .label{ font-weight:bold; color:#ce8c42;}
+form .label span{ font-weight:bold; color:#F50606; font-size:16px;}
+form .text{ margin:5px 0; }
+form .text input{border:solid 1px #bbb; background:#fbfbfb; height:20px;}
+form .text textarea{border:solid 1px #bbb; background:#fbfbfb; width:300px;}
+.buttons{background:#ce8c42; border: 1px solid #ce8c42; color: #FFFFFF;  padding: 3px 10px; cursor:pointer;}
+
+.planstoggle
+{
+    background:#e9edf1 no-repeat right center;  border: 1px solid #999;  padding:15px 5px; text-align: left;
+
+     -moz-box-shadow: 3px 3px 4px #999;
+	-webkit-box-shadow: 3px 3px 4px #999;
+	box-shadow: 3px 3px 4px #999;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#999999')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#999999');
+
+
+}
+
+.planstoggle ul{/*list-style-type:disc !important;*/overflow:hidden;}
+.planstoggle ul strong{ color:#ce8c42;}
+.planstoggle ul ul{/*list-style-type:square !important; */ padding:0; margin:0;  }
+.planstoggle ul ul li{ padding:5px 0 0px 0; }
+
+
+.tabbed_box h4 {
+
+	margin-bottom:15px; margin-top:10px;
+}
+
+.tabbed_area {
+
+	padding-bottom:8px;
+}
+ul.tabs {
+	margin:0px; padding:0px;
+	margin-top:5px;
+	margin-bottom:4px;
+}
+ul.tabs li {
+	list-style:none;
+	display:inline;
+}
+
+ul.tabs li a {
+	background-color:#116c98;
+	color:#fff;
+	padding:7px 14px 7px 14px;
+	text-decoration:none;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	border:1px solid #116c98;
+}
+ul.tabs li a:hover {
+	background-color:#2f343a;
+	border-color:#2f343a;
+}
+ul.tabs li a.active {
+	background-color:#f4f4f4;
+	color:#282e32;
+	border:1px solid #464c54;
+	border-bottom: 1px solid #f4f4f4;
+}
+.content {
+	background-color:#F4F4F4;
+	padding:10px;
+	border:1px solid #464c54;
+}
+#content_2, #content_3 { display:none; }
+
+
+ul.tabs li a {
+	/*background-image:url(../images/tab_off.jpg);
+	background-repeat:repeat-x;
+	background-position:bottom;*/
+}
+ul.tabs li a.active {
+	/*background-image:url(../images/tab_on.jpg);
+	background-repeat:repeat-x;
+	background-position:top;*/
+}
+.content {
+
+
+}
+
+.kycUl
+{
+ margin-top: 4pt;  margin-left:10px; list-style-type:circle;
+}
+
+.kycLi
+{
+   margin-bottom: 2pt;
+}
+.kycLiLast
+{
+   margin-bottom: 15pt;
+}
+
+.kycMainHead
+{
+    color: #07435D;
+    font-size: 22px;
+    font-family: 'Sakkal Majalla';
+    font-weight: bold;
+}
+
+
+.kycHead
+{
+    color: #07435D;
+    font-size: 20px;
+    font-family: 'Sakkal Majalla';
+    font-weight: bold;
+}
+
+.kycMainText
+{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.kycSpanClass
+{
+   font-weight:bold;
+   color:Blue;
+  text-decoration :underline;
+   cursor: hand; cursor: pointer;
+}
+
+.PriceTypeClass
+{
+    font-size: 10px;
+    font-weight: bold;
+    float: right;
+    color: #FF0000;
+    padding-right:12px;
+}
+
+
+.PriceTypeClassBig
+{
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+    color: #FF0000;
+    padding-right:40px;
+}
+
+
+.BrNameClassBig
+{
+    font-size: 13px;
+    /*font-weight: bold;*/
+    float: left;
+}
+
+
+
+
+/*new settings */
+
+
+/* Scroller Box */
+#scroller_container
+{
+    position: relative;
+    width: 261px;
+    height: 660px; /* height: 100%; height: 660px; */
+    overflow: hidden;
+}
+
+#scroller p {
+ padding: 0;
+}
+/* Scoller Box */
+
+
+.TopheaderN
+{
+    height: 34px;
+    line-height: 34px;
+    width:261px;
+}
+
+.headerN
+{
+    height: 27px;
+    line-height: 27px;
+    padding-top: 0px;
+    vertical-align:middle;
+}
+
+.livepriceN
+{
+    width: 259px;
+    border: solid 1px #999;
+    background: #f5f5f5 repeat center 45px;
+    vertical-align: middle;
+    height: auto; /* overflow: auto; */
+}
+
+.titledivN{ border:solid 0px #999;  width:130px; float:left; padding: 0px 0 0 4px;}
+/*.pricedivN{border:solid 0px #999;width:85px; float:right; padding: 0px 0 0 0; } */
+.imgClassN{border:solid 0px #999; float:left; padding: 7px 0 0 0; }
+.priceClassN{ border:solid 0px #999;font-size:14px; float:right; text-align:right; padding-right:3px;}
+.purityN{ border:solid 0px #999; color:#888888; font-size:11px;  float:left; padding-top:0px;}
+
+/*sub{ font-size:10px; }
+sup{font-size:10px; }   already exists above  */
+
+.greyrowN{height: 25px;line-height: 27px;border-top: 1px solid #c6c6c6;}
+.pinkrowN{ height:25px; line-height: 27px;border-top: 1px solid #c6c6c6;}
+
+.imgBtnClassN
+{
+    padding: 3px;
+    cursor: pointer;
+}
+
+
+
+
+/*magnified table content*/
+
+
+.logoN1
+{
+    line-height: 40px;
+    width: 958px;
+    border: 1px solid #999;
+    text-align: center;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.headerN1
+{
+    height: 40px;
+    line-height: 40px;
+    font-size:30px;
+    text-align:left;
+}
+
+.livepriceN1{ width:958px; border:solid 1px #999; background:#f5f5f5 repeat center center; }
+
+.titledivN1{ border:solid 0px #999; width:490px; float:left; padding: 5px 5px 0 10px; text-align:left; font-size: 25px;}
+/*.pricedivN1{border:solid 0px #999; width:350px; float:right; padding: 5px 0 0 0; }  */
+.imgClassN1
+{
+    border: solid 0px #999;
+    float: left;
+    padding: 5px 5px 0 0;
+}
+
+.priceClassImgN1{border:solid 0px #999;float:left; text-align:left; padding-top:8px;}
+.priceClassN1{border:solid 0px #999;font-size:32px;float:right; text-align:right;padding-top:8px; padding-right:5px;}
+.purityN1{border:solid 0px #999;color:#a28521; width:250px; font-size:18px; float:left; text-align:left; padding-top:8px;}
+
+
+.greyrowN1
+{
+    height: 35px;
+    line-height: 35px;
+    border-top: 1px solid #c6c6c6;
+    padding: 6px 0 16px 0px;
+}
+.pinkrowN1
+{
+    height: 35px;
+    line-height: 35px;
+    border-top: 1px solid #c6c6c6;
+    padding: 6px 0 16px 0px;
+}
+
+.imgBtnClassN1
+{
+    padding: 10px 5px 0px 0px;
+    cursor: pointer;
+}
+
+/*end of new settings */

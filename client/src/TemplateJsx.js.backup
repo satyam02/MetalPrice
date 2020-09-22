@@ -1,0 +1,216 @@
+import React from 'react';
+
+ export const TemplateJsx = () => {
+ return (
+   <div>
+   <div class="logoN1"> <img height="95px" src="./images/logo.jpg" alt="SVBC GOLD" /></div>
+  <div class="livepriceN1">
+     <table id="LPriceTbl" width="100%" style={{position: 'relative'}}>
+        <tbody>
+           <tr class="headerN1" style={{ display: 'none'}}>
+              <td style={{ paddingLeft : '5px', paddingTop: '3px'}}><strong>INL</strong></td>
+           </tr>
+           <tr>
+              <td>
+                 <div class="greyrowN1">
+                    <div class="titledivN1">Gold</div>
+                    <div class="purityN1"> </div>
+                    <div class="priceClassImgN1"><img class="imgClassN1" src="images/dollar1.png" alt="" /></div>
+                    <div class="priceClassN1"><font color="Green">1943.94</font></div>
+                 </div>
+                 <div class="pinkrowN1">
+                    <div class="titledivN1">Silver</div>
+                    <div class="purityN1"></div>
+                    <div class="priceClassImgN1"><img class="imgClassN1" src="images/dollar1.png" alt=""  /></div>
+                    <div class="priceClassN1"><font color="Black">26.85</font></div>
+                 </div>
+                 <div class="greyrowN1">
+                    <div class="titledivN1">USD/INR</div>
+                    <div class="purityN1"> </div>
+                    <div class="priceClassImgN1"><img class="imgClassN1" src="images/rupee1.png" alt="" /></div>
+                    <div class="priceClassN1"><font color="Black">73.600</font></div>
+                 </div>
+              </td>
+           </tr>
+           <tr class="headerN1">
+              <td style={{ paddingLeft : '5px', paddingTop: '3px'}}><strong>HYDERABAD</strong></td>
+           </tr>
+           <tr>
+              <td>
+                 <div class="greyrowN1">
+                    <div class="titledivN1">Gold 100g (With GST)</div>
+                    <div class="purityN1">999.0</div>
+                    <div class="priceClassImgN1"><img class="imgClassN1" src="images/rupee1.png" alt="" /></div>
+                    <div class="priceClassN1"><font color="Black">534760</font></div>
+                 </div>
+              </td>
+           </tr>
+           <tr class="headerN1">
+              <td style={{ paddingLeft : '5px', paddingTop: '3px'}}><strong>VIJAYAWADA</strong></td>
+           </tr>
+           <tr>
+              <td>
+                 <div class="greyrowN1">
+                    <div class="titledivN1">Gold 100g (With GST)</div>
+                    <div class="purityN1">999.0</div>
+                    <div class="priceClassImgN1"><img class="imgClassN1" src="images/rupee1.png" alt="" /></div>
+                    <div class="priceClassN1"><font color="Black">534760</font></div>
+                 </div>
+              </td>
+           </tr>
+           <tr class="headerN1">
+              <td style={{ paddingLeft : '5px', paddingTop: '3px'}}><strong>COIMBATORE</strong></td>
+           </tr>
+           <tr>
+              <td>
+                 <div class="greyrowN1">
+                    <div class="titledivN1">Gold 100g (With GST)</div>
+                    <div class="purityN1">999.0</div>
+                    <div class="priceClassImgN1"><img class="imgClassN1" src="images/rupee1.png" alt="" /></div>
+                    <div class="priceClassN1"><font color="Red">N/A</font></div>
+                 </div>
+              </td>
+           </tr>
+           <tr class="headerN1">
+              <td style={{ paddingLeft : '5px', paddingTop: '3px'}}><strong>VISAKHAPATNAM</strong></td>
+           </tr>
+           <tr>
+              <td>
+                 <div class="greyrowN1">
+                    <div class="titledivN1">Gold 100g (With GST)</div>
+                    <div class="purityN1">999.0</div>
+                    <div class="priceClassImgN1"><img class="imgClassN1" src="images/rupee1.png" alt="" /></div>
+                    <div class="priceClassN1"><font color="Black">534760</font></div>
+                 </div>
+                 <div class="pinkrowN1">
+                    <div class="titledivN1">Silver 1kg (With GST)</div>
+                    <div class="purityN1">999.0</div>
+                    <div class="priceClassImgN1"><img class="imgClassN1" src="images/rupee1.png" alt="" /></div>
+                    <div class="priceClassN1"><font color="Black">67850</font></div>
+                 </div>
+              </td>
+           </tr>
+        </tbody>
+     </table>
+     <div style={{height: '35px'}}></div>
+     <table id="SvbcAmPmTbl" width="100%" style={{position:'relative'}} border="1px">
+        <tbody>
+           <tr class="headerN1">
+              <th width="25.50%" style= {{textAlign:'center'}}>SVBC GOLD AM FIX (100g 999.0)</th>
+              <th width="25.50%" style= {{textAlign:'center'}}>SVBC GOLD PM FIX (100g 999.0)</th>
+           </tr>
+           <tr>
+              <td>
+                 <div class="pinkrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;532800&nbsp;</span></div>
+              </td>
+              <td>
+                 <div class="pinkrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;531800&nbsp;</span></div>
+              </td>
+           </tr>
+        </tbody>
+     </table>
+     <div style={{height: '35px'}}></div>
+     <table id="PrTbl" width="100%" style={{position:'relative'}} border="1px">
+        <tbody>
+           <tr class="headerN1">
+              <th></th>
+              <th width="16.75%" style={{textAlign:'center'}}>BID</th>
+              <th width="16.75%" style={{textAlign:'center'}}>ASK</th>
+              <th width="16.75%" style={{textAlign:'center'}}>LOW</th>
+              <th width="16.75%" style={{textAlign:'center'}}>HIGH</th>
+           </tr>
+           <tr>
+              <td>
+                 <div class="greyrowN1"><span style={{fontSize:'25px'}}>&nbsp;GOLD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;05 OCT 2020</span></div>
+              </td>
+              <td>
+                 <div class="greyrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;51411&nbsp;</span></div>
+              </td>
+              <td>
+                 <div class="greyrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;51426&nbsp;</span></div>
+              </td>
+              <td>
+                 <div class="greyrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;51181&nbsp;</span></div>
+              </td>
+              <td>
+                 <div class="greyrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;51710&nbsp;</span></div>
+              </td>
+           </tr>
+           <tr>
+              <td>
+                 <div class="pinkrowN1"><span style={{fontSize:'25px'}}>&nbsp;SILVER&nbsp;&nbsp;&nbsp;&nbsp;04 DEC 2020</span></div>
+              </td>
+              <td>
+                 <div class="pinkrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;67838&nbsp;</span></div>
+              </td>
+              <td>
+                 <div class="pinkrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;67848&nbsp;</span></div>
+              </td>
+              <td>
+                 <div class="pinkrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;66650&nbsp;</span></div>
+              </td>
+              <td>
+                 <div class="pinkrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;68280&nbsp;</span></div>
+              </td>
+           </tr>
+           <tr>
+              <td>
+                 <div class="greyrowN1"><span style={{fontSize:'25px'}}>&nbsp;GOLD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;05 OCT 2020</span></div>
+              </td>
+              <td>
+                 <div class="greyrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;51473&nbsp;</span></div>
+              </td>
+              <td>
+                 <div class="greyrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;51474&nbsp;</span></div>
+              </td>
+              <td>
+                 <div class="greyrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;51257&nbsp;</span></div>
+              </td>
+              <td>
+                 <div class="greyrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;51750&nbsp;</span></div>
+              </td>
+           </tr>
+           <tr>
+              <td>
+                 <div class="pinkrowN1"><span style={{fontSize:'25px'}}>&nbsp;SILVER&nbsp;&nbsp;&nbsp;&nbsp;05 MAR 2021</span></div>
+              </td>
+              <td>
+                 <div class="pinkrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;70219&nbsp;</span></div>
+              </td>
+              <td>
+                 <div class="pinkrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;70282&nbsp;</span></div>
+              </td>
+              <td>
+                 <div class="pinkrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;69179&nbsp;</span></div>
+              </td>
+              <td>
+                 <div class="pinkrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;70596&nbsp;</span></div>
+              </td>
+           </tr>
+        </tbody>
+     </table>
+     <div style={{height: '35px'}}></div>
+     <table id="AmPmTbl" width="100%" style={{position:'relative'}} border="1px">
+        <tbody>
+           <tr class="headerN1">
+              <th width="17%" style={{textAlign:'center'}}>GOLD AM FIX</th>
+              <th width="17%" style={{textAlign:'center'}}>GOLD PM FIX</th>
+              <th width="17%" style={{textAlign:'center'}}>SILVER FIX</th>
+           </tr>
+           <tr>
+              <td>
+                 <div class="pinkrowN1" align="center"><span style={{color:'black', fontSize:'32px'}} >&nbsp;1936.10&nbsp;</span></div>
+              </td>
+              <td>
+                 <div class="pinkrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;1936.25&nbsp;</span></div>
+              </td>
+              <td>
+                 <div class="pinkrowN1" align="center"><span style={{color:'black', fontSize:'32px'}}>&nbsp;26.7450&nbsp;</span></div>
+              </td>
+           </tr>
+        </tbody>
+     </table>
+  </div>
+  </div>
+)
+}
