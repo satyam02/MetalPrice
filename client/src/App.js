@@ -1,17 +1,12 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import './App.css';
-import ReactDOM from 'react-dom';
 import CurrencyExchange from './CurrencyExchange';
+
 //import './Style.css';
 import './slide.css';
 //import {TemplateJsx} from './TemplateJsx.js';
-ReactDOM.render(
-  <React.StrictMode>
-    <CurrencyExchange />
-    
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+
 
 class App extends Component {
   state={xauPrice: ''};
@@ -101,6 +96,22 @@ class App extends Component {
     const{data}=this.state;
     const{SilverIndia}=this.state;
     return (<div>
+      <Router> 
+           <div className="App"> 
+            <ul className="App-header"> 
+              <li> 
+              <Link to="/App">Home</Link>
+              </li> 
+              <li>
+                <Link to="/CurrencyExchange">CurrencyExchange</Link> 
+              </li> 
+            </ul> 
+            <Switch> 
+            <Route exact path='/' component={App}></Route>
+              <Route exact path='/CurrencyExchange' component={CurrencyExchange}></Route>  
+            </Switch> 
+          </div> 
+       </Router> 
            <h2>Price Table</h2>
 
 <table>
