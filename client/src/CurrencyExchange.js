@@ -2,10 +2,9 @@
 import React, { Component } from 'react';
 
 class CurrencyExchange extends Component{
-  constructor(props) {
-    super(props);
-    this.state = { rates: [] };
-  }
+ 
+    state = { users:[]
+       };
 componentDidMount()
 {
 this.getCurrency();
@@ -33,27 +32,42 @@ callApi = async () => {
 
   getCurrency = async e => {
     const response = await fetch('/api/USD/Xchange');
+   
     const body = await response.json();
+    
     if (response.status !== 200)
       throw Error(body.message);
     var data = JSON.parse(body.express);
-    console.log(data.rates)
-    this.setState({rates:data.rates})
     
-    return body;
+    this.setState({users:data.rates})
+    
+        return body;
   };
 
- // {rates.map(s => (<li>{s}</li>))}
+ 
 render(){
-  const{rates}= this.state.rates;
+  
+  const{users}=this.state;
     return(
-      
-    
-        <div>
-            <ul>
-                {Object.keys(rates).map((price, index) => <li key={index}>{price} : {rates[price]}</li>)}
-            </ul>
-        </div>
+      <div className="table">
+      <table>
+         <thead>
+            <tr>
+               <th>Currency Code</th>
+               <th>Exchange Rate 1 USD</th>
+            </tr>
+         </thead>
+         <tbody>
+           {Object.keys(users).map(function(value, idx) {
+             return <tr key={idx}>
+               <td>{value}</td>
+               <td>{users[value]}</td>
+             </tr>
+           })}
+         </tbody>
+       </table>
+    </div>
+  
   );
 }
 }export default CurrencyExchange;
