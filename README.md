@@ -1,5 +1,6 @@
 # metal_price
-Sample React App for fetching live and historical values of Gold and Silver rates
+Sample React App for fetching live value of Gold in USD and Silver rates in INDIA,
+with currency exchange values 1 USD
 
 ## Setup from scratch
 
@@ -42,6 +43,8 @@ Go to metal_price folder and run following:
 > npm install moment
 
 >npm install request
+
+>npm install react-router-dom
 Download server.js from this project and copy into metal_price folder parallel to package.json.
 
 This is a simple Express server that will run on port 5000 and have APIS to get rates dynamically.
